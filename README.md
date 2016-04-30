@@ -21,4 +21,5 @@ Social Media App
 
 Code Challenge w/ Sockets
 
-- Build an app with sockets that shows you a coding challenge and lets you get into a room with your friends to solve it.  You can have a personal profile, which tracks the number of challenges you've taken part in, the number you've won, and the number of points you have total.  Finishing the challenge first (with correct answer) gets you 5 points, second gets 3 points, and third gets 1 point.  You can still finish the challenge even if you're not the first 3, you just don't get points. 
+- Build an app with sockets that shows you a coding challenge and lets you get into a room with your friends to solve it.  You can have a personal profile, which tracks the number of challenges you've taken part in, the number you've won, and the number of points you have total.  Finishing the challenge first (with correct answer) gets you 5 points, second gets 3 points, and third gets 1 point.  You can still finish the challenge even if you're not the first 3, you just don't get points.
+  - need to figure out a way to validate that the code is correct
