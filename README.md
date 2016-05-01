@@ -26,9 +26,11 @@ Code Challenge w/ Sockets
 - Users can upload a photo of themselves, or it can pull the facebook profile pic as their personal profile photo
 - the profile will track the number of points they have.
 - maybe have a global leaderboard showing the top 5 people by points.
-- probably use mongo to store scores as an array on the user object, otherwise could use psql to have a users table, and then a scores table with a user ID associated, and then just grab all the rows with that user ID to sum the points and such. 
+- probably use mongo to store scores as an array on the user object, otherwise could use psql to have a users table, and then a scores table with a user ID associated, and then just grab all the rows with that user ID to sum the points and such.
   - need to figure out a way to validate that the code is correct
     - could possibly use either hackerrank API or hackerearth run API.
       - Pass the typed code to the API along with what the desired output is, it runs the code and then tells if the output that it comes back with matches the desired output.
         - not sure about if there's a way to run tests on the functions, or what the structure of the programming challenges would have to be.
+  - also need to figure out how to write angular end to end and unit tests in order to build the API that saves and sets the scores. 
+  - the project will use Angular for the front end, Sockets.io for communication, Node/Express backend, and either Mongo or Psql for the database.  Probably Satelizer or OAuth for social authentication also.
     - Could also sort of change this up to be a study app that asks you questions and you have to tell what the output should be, sort of like our in-class trivia.
