@@ -22,9 +22,13 @@ Social Media App
 Code Challenge w/ Sockets
 
 - Build an app with sockets that shows you a coding challenge and lets you get into a room with your friends to solve it.  You can have a personal profile, which tracks the number of challenges you've taken part in, the number you've won, and the number of points you have total.  Finishing the challenge first (with correct answer) gets you 5 points, second gets 3 points, and third gets 1 point.  You can still finish the challenge even if you're not the first 3, you just don't get points.
+- Use social auth to log in, and maybe have access to your friends list to invite people?  also to start could just have a randomly generated url that connects the people into the room.
+- Users can upload a photo of themselves, or it can pull the facebook profile pic as their personal profile photo
+- the profile will track the number of points they have.
+- maybe have a global leaderboard showing the top 5 people by points.
+- probably use mongo to store scores as an array on the user object, otherwise could use psql to have a users table, and then a scores table with a user ID associated, and then just grab all the rows with that user ID to sum the points and such. 
   - need to figure out a way to validate that the code is correct
     - could possibly use either hackerrank API or hackerearth run API.
       - Pass the typed code to the API along with what the desired output is, it runs the code and then tells if the output that it comes back with matches the desired output.
         - not sure about if there's a way to run tests on the functions, or what the structure of the programming challenges would have to be.
-        - Could also sort of change this up to be a study app that asks you questions and you have to tell what the output should be, sort of like our in-class trivia.
-        
+    - Could also sort of change this up to be a study app that asks you questions and you have to tell what the output should be, sort of like our in-class trivia.
