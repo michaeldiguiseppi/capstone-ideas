@@ -36,4 +36,13 @@ Code Challenge w/ Sockets
     - Could also sort of change this up to be a study app that asks you questions and you have to tell what the output should be, sort of like our in-class trivia.
 
 Something LoL API based
+
 - maybe a stats site where you can go on and track your friends and your stats, and compare them?
+
+
+Social media analytics dashboard
+
+- possibly a mobile app
+  - using ionic framework
+- this would allow you to set fan goals for pages, like goals, etc, and let you know how close you are to achieving these goals.
+- 
