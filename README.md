@@ -31,6 +31,9 @@ Code Challenge w/ Sockets
     - could possibly use either hackerrank API or hackerearth run API.
       - Pass the typed code to the API along with what the desired output is, it runs the code and then tells if the output that it comes back with matches the desired output.
         - not sure about if there's a way to run tests on the functions, or what the structure of the programming challenges would have to be.
-  - also need to figure out how to write angular end to end and unit tests in order to build the API that saves and sets the scores. 
+  - also need to figure out how to write angular end to end and unit tests in order to build the API that saves and sets the scores.
   - the project will use Angular for the front end, Sockets.io for communication, Node/Express backend, and either Mongo or Psql for the database.  Probably Satelizer or OAuth for social authentication also.
     - Could also sort of change this up to be a study app that asks you questions and you have to tell what the output should be, sort of like our in-class trivia.
+
+Something LoL API based
+- maybe a stats site where you can go on and track your friends and your stats, and compare them?
