@@ -1,6 +1,6 @@
 # capstone-ideas
 
-Interior Design App
+### Interior Design App
 
 - Ability to select furniture items from a dropdown list, with included LxWxH measurements.
 - Select the size of the room,
@@ -12,14 +12,14 @@ Interior Design App
 - Possibly use ionic framework and mongo for storage.
 
 
-Social Media App
+### Social Media App
 
 - Reddit type forum posts, but have a custom profile.  The "news feed" is topics or posts from forums that you watch/like, or similar things.
 - Not sure how to implement this, would need lots of seed data for a forum.
 - Angular front end, Express/Node back end, probably Mongo storage, so that there can be an array of posts, and each post can have comments, and they can basically nest from there.
 
 
-Code Challenge w/ Sockets
+### Code Challenge w/ Sockets
 
 - Build an app with sockets that shows you a coding challenge and lets you get into a room with your friends to solve it.  You can have a personal profile, which tracks the number of challenges you've taken part in, the number you've won, and the number of points you have total.  Finishing the challenge first (with correct answer) gets you 5 points, second gets 3 points, and third gets 1 point.  You can still finish the challenge even if you're not the first 3, you just don't get points.
 - Use social auth to log in (Satellizer), and maybe have access to your friends list to invite people?  also to start could just have a randomly generated url that connects the people into the room.
@@ -35,7 +35,7 @@ Code Challenge w/ Sockets
   - the project will use Angular for the front end, Sockets.io for communication, Node/Express backend, and either Mongo or Psql for the database.  Probably Sattelizer or OAuth for social authentication also.
     - Could also sort of change this up to be a study app that asks you questions and you have to tell what the output should be, sort of like our in-class trivia.
 
-### User Stories
+#### User Stories
 1. As a user, I want to be able to go to a home page without being logged in.
 1. As a user, I want to be able to have a sign up button/page to register
 1. As a user, I want to be able to sign up with social authentication
@@ -50,19 +50,19 @@ Code Challenge w/ Sockets
 1. As a user, I want to have a show hint button that gives me some help with the challenge.
 
 
-Something LoL API based
+### Something LoL API based
 
 - maybe a stats site where you can go on and track your friends and your stats, and compare them?
 
 
-Social media analytics dashboard
+### Social media analytics dashboard
 
 - possibly a mobile app
   - using ionic framework
   - this would allow you to set fan goals for pages, like goals, etc, and let you know how close you are to achieving these goals.
 
 
-Electron based Desktop Application in Javascript
+### Electron based Desktop Application in Javascript
 
 - Possibly a media server, or a streaming API for movies on your hard drive or on your network
   - Wrapper for VLC to create embedded video player?
