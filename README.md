@@ -60,7 +60,6 @@ Social media analytics dashboard
 - possibly a mobile app
   - using ionic framework
   - this would allow you to set fan goals for pages, like goals, etc, and let you know how close you are to achieving these goals.
--
 
 
 Electron based Desktop Application in Javascript
