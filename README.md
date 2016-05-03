@@ -35,6 +35,21 @@ Code Challenge w/ Sockets
   - the project will use Angular for the front end, Sockets.io for communication, Node/Express backend, and either Mongo or Psql for the database.  Probably Sattelizer or OAuth for social authentication also.
     - Could also sort of change this up to be a study app that asks you questions and you have to tell what the output should be, sort of like our in-class trivia.
 
+### User Stories
+1. As a user, I want to be able to go to a home page without being logged in.
+1. As a user, I want to be able to have a sign up button/page to register
+1. As a user, I want to be able to sign up with social authentication
+1. As a user, I want to have a sign in button with social authentication
+1. As a user, I want to see an example problem/solution on the landing page.
+1. As a user, I want to have a navigation bar with multiple features.
+  - Create a game
+  - Invite a friend to a game
+  - Join a friends game
+1. As a user, I want to be able to have a code block section to type my solution into
+1. As a user, I want to be able to see when my friends have finished the challenge, but not their answer.
+1. As a user, I want to have a show hint button that gives me some help with the challenge.
+
+
 Something LoL API based
 
 - maybe a stats site where you can go on and track your friends and your stats, and compare them?
@@ -52,4 +67,3 @@ Electron based Desktop Application in Javascript
 
 - Possibly a media server, or a streaming API for movies on your hard drive or on your network
   - Wrapper for VLC to create embedded video player?
-  
