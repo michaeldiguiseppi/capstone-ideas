@@ -48,6 +48,13 @@
 1. As a user, I want to be able to have a code block section to type my solution into
 1. As a user, I want to be able to see when my friends have finished the challenge, but not their answer.
 1. As a user, I want to have a show hint button that gives me some help with the challenge.
+1. As a user, I want to be able to have a user profile.
+1. As a user, I want my user profile to track my points earned.
+1. As a user, I want my user profile to track how many challenges I've completed.
+1. As a user, I want my user profile to track how many challenges I've been the first to complete.
+1. As a user, I want to be able to challenge friends via email invite.
+1. As a user, I want to be able to compete in challenges with online players.
+
 
 
 ### Something LoL API based
