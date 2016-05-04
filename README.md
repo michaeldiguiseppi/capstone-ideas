@@ -26,6 +26,7 @@
 - Users can upload a photo of themselves, or it can pull the facebook profile pic as their personal profile photo
 - the profile will track the number of points they have.
 - maybe have a global leaderboard showing the top 5 people by points.
+- Need to come up with a way to score the answer, or just focus on speed. 
 - probably use mongo to store scores as an array on the user object, otherwise could use psql to have a users table, and then a scores table with a user ID associated, and then just grab all the rows with that user ID to sum the points and such.
   - need to figure out a way to validate that the code is correct
     - could possibly use either hackerrank API or hackerearth run API.
