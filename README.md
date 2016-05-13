@@ -77,8 +77,20 @@
 
 
 ### Movie database iPhone app
- - Can use the camera to take pictures of barcodes and look up the movies
- - Have a database of your own movies
- - Potentially be able to stream the movie from a source?
-  - Have to talk to robby about streaming live.
-  
+
+- Can use the camera to take pictures of barcodes and look up the movies
+- Have a database of your own movies
+- Going to use Guidebox API to find streaming sources for each movie that you search for
+- Use ionic framework to wrap the app natively.
+  - ngBarcodeScanner is an Ionic tool to use the camera to be a barcode scanner.
+- Users will have the ability to search for movies via barcode or search box.
+  - The search will query the OMDB API for movie info and image, and then will query the guidebox API for streaming sources.
+  - Users can add movies to their collection, ideally would be like, DVDs they own, or movies they have access to.
+  - Could also have a tab in the app for movies they've seen, and could pull data on how many times in a year they've watched certain movies?
+- Going to use Mongo for the backend, each user will have an object, and users can have an array of movies in their collection,
+  - and each movie in the collection array will be an object with all the OMDB api info.
+- Users can randomly generate a movie from their collection
+- Users can filter the collection, or can search the collection.
+- Using Angular.JS for the front end, with Ionic.
+- Using Node.js, Express, and Mongo for the back end.  The back end will be a separate Repo and will basically just be building the API for my project, which queries the other two APIs as well as my DB.
+- This API will be hosted probably on Heroku, and then my angular app will just make $http calls to my own API.
