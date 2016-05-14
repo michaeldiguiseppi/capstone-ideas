@@ -83,6 +83,7 @@
 - Going to use Guidebox API to find streaming sources for each movie that you search for
 - Use ionic framework to wrap the app natively.
   - ngBarcodeScanner is an Ionic tool to use the camera to be a barcode scanner.
+  - Need to figure out building the app first, then will add the barcode scanner.
 - Users will have the ability to search for movies via barcode or search box.
   - The search will query the OMDB API for movie info and image, and then will query the guidebox API for streaming sources.
   - Users can add movies to their collection, ideally would be like, DVDs they own, or movies they have access to.
